@@ -1,0 +1,236 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2 {
+    color: #00d1ff;
+    text-align: center;
+}
+
+p {
+    color: #666;
+}
+
+/* Navigation Bar */
+.nav-bar {
+    background-color: #0a0f24;
+    padding: 10px;
+    color: white;
+}
+
+.nav-bar h1 {
+    margin: 0;
+}
+
+.nav-bar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-bar nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-bar nav ul li a {
+    color: #00d1ff;
+    text-decoration: none;
+}
+
+/* Content Styling */
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Container and Centering for Login Page */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('smartCity.png') no-repeat center center;
+    background-size: cover;
+}
+
+.login-box {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 10px;
+}
+
+.input-field {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #00d1ff;
+    color: #fff;
+    font-size: 18px;
+}
+
+.input-field label {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.input-field input:focus ~ label,
+.input-field input:valid ~ label {
+    top: -20px;
+    color: #00d1ff;
+    font-size: 14px;
+}
+
+/* Buttons Styling */
+.btn {
+    background-color: #00d1ff;
+    color: #0a0f24;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #009bcc;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0a0f24;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0a0f24;
+    color: #ffffff;
+}
+
+h1, h2 {
+    color: #00d1ff;
+    text-align: center;
+}
+
+/* Container for Centering */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../images/smartcity_bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+/* Login Box Styling */
+.login-box {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 300px;
+}
+
+/* Login Box Header */
+.login-box h2 {
+    margin-bottom: 20px;
+}
+
+/* Input Field Styling */
+.input-field {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #00d1ff;
+    color: #fff;
+    font-size: 18px;
+    transition: border-color 0.3s;
+}
+
+.input-field input:focus {
+    outline: none;
+    border-bottom: 2px solid #00ffcc;
+}
+
+.input-field label {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.input-field input:focus ~ label,
+.input-field input:valid ~ label {
+    top: -20px;
+    color: #00d1ff;
+    font-size: 14px;
+}
+
+/* Buttons Styling */
+.btn {
+    background-color: #00d1ff;
+    color: #0a0f24;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #009bcc;
+}
+
+/* Error Message Styling */
+#error-message {
+    display: none;
+    color: red;
+    margin-top: 10px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0a0f24;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

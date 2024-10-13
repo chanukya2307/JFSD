@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage City Information - Smart City</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <h1>Smart City Admin</h1>
+        <nav>
+            <ul>
+                <li><a href="admin.html">Home</a></li>
+                <li><a href="manageCity.html">Manage City Information</a></li>
+                <li><a href="updateServices.html">Update Public Services</a></li>
+                <li><a href="monitorInfrastructure.html">Monitor Infrastructure</a></li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <h2>Manage City Information</h2>
+        <form>
+            <label for="cityName">City Name:</label>
+            <input type="text" id="cityName" name="cityName" required>
+            <label for="population">Population:</label>
+            <input type="number" id="population" name="population" required>
+            <label for="services">Public Services:</label>
+            <textarea id="services" name="services" rows="4"></textarea>
+            <button type="submit" class="btn">Update City Info</button>
+        </form>
+    </div>
+</body>
+</html>
